@@ -14,7 +14,7 @@ namespace Core.DataAccess
     {
         List<T> GetAll(Expression<Func<T,bool>> filter=null); //Ürünleri şuna göre listele falan yapmak için
        
-        T Get(Expression<Func<T, bool>> filter);
+        T Get(Expression<Func<T, bool>> filter); //detaya girmek için
       
         //T GetById(int id);
        
